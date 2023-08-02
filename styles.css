@@ -1,17 +1,31 @@
 /* ... Your previous styles ... */
 
+/* Style the header container */
+.header {
+  position: relative;
+}
+
+/* Style the rectangle picture */
+.header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 /* Adjust the navbar/menu positioning */
 .navbar {
   position: absolute;
   top: 10px;
-  right: 20px; /* Adjust this value to move the menu more to the right */
-  z-index: 2; /* Ensure the menu is above the image */
+  right: 10px;
 }
 
 /* Style the menu icon */
 .menu-icon {
   cursor: pointer;
-  color: #333; /* Set the color you prefer */
+  color: #fff; /* Set the color you prefer */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a background color for the icon */
+  padding: 5px;
+  border-radius: 50%;
 }
 
 /* Style the dropdown items */
@@ -25,6 +39,17 @@
   padding: 10px;
   border-radius: 5px;
   z-index: 1; /* Ensure the dropdown is below the navbar */
+}
+
+.menu-items.show {
+  display: block;
+}
+
+.menu-items a {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
 }
 
 /* ... Your previous styles ... */
