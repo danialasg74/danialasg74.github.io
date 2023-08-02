@@ -3,10 +3,28 @@
 <head>
   <title>Your Page Title</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <div class="navbar">
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="menu-items" id="menuItems">
+      <a href="https://your-poems-website.com">Poems</a>
+      <a href="https://your-songs-website.com">Songs</a>
+      <a href="https://your-papers-website.com">Papers</a>
+    </div>
+  </div>
+
   <h1>Hello World</h1>
   <p>I'm hosted with GitHub Pages.</p>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menuItems");
+      menu.classList.toggle("show");
+    }
+  </script>
 </body>
 </html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
