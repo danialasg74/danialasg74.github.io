@@ -19,7 +19,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  z-index: 1; /* Ensure the menu is above the image */
+  z-index: 2; /* Ensure the menu is above the image */
 }
 
 /* Style the menu icon */
@@ -38,6 +38,7 @@
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 5px;
+  z-index: 1; /* Ensure the dropdown is below the navbar */
 }
 
 .menu-items.show {
@@ -55,5 +56,4 @@
 .header,
 .navbar {
   position: relative;
-  z-index: 1;
 }
