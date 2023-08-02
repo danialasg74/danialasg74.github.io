@@ -3,14 +3,14 @@
 /* Style the header container */
 .header {
   position: relative;
-  height: 40vh; /* Set the height to cover 1/3 of the page */
+  height: 33.33vh; /* Set the height to cover 1/3 of the page */
   overflow: hidden;
 }
 
 /* Style the rectangle picture */
 .header img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -53,8 +53,6 @@
   margin-bottom: 5px;
   color: #333;
   text-decoration: none;
-  margin-bottom: 10px; /* Increase the margin to separate the items */
-  font-size: 22px; /* Adjust the font size as needed */
 }
 
 /* ... Your previous styles ... */
