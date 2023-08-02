@@ -13,54 +13,30 @@
 }
 
 /* Adjust the navbar/menu positioning */
-.navbar {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 1;
-}
-
-/* Style the menu icon */
-.menu-icon {
-  cursor: pointer;
-  color: #fff; /* Set the color you prefer */
-  background-color: rgba(0, 0, 0, 0.5); /* Add a background color for the icon */
-  padding: 5px;
-  border-radius: 50%;
-}
-
-/* Style the dropdown items */
 .menu-items {
-  display: none;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: -10px;
-  right: 0;
-  background-color: #fff;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  border-radius: 5px;
+  top: 20px;
+  right: 20px;
   z-index: 1;
-}
-
-.menu-items.show {
-  display: block;
 }
 
 .menu-items a {
   display: block;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #333;
-  text-decoration: none;
-  background-color: #f8f8f8; /* Background color */
+  color: #fff;
+  background-color: #4CAF50; /* Background color */
   padding: 10px 20px; /* Padding */
-  border: 1px solid #ccc; /* Border */
   border-radius: 5px; /* Border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  text-decoration: none;
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .menu-items a:hover {
-  background-color: #ddd; /* Hover background color */
+  background-color: #45a049; /* Hover background color */
 }
 
 /* ... Your previous styles ... */
