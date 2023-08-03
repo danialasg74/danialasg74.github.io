@@ -1,9 +1,8 @@
-
-
 body {
-  max-width: 800px; /* Set a desired maximum width for the webpage */
-  margin: 0 auto; /* Center the content horizontally */
-  background-color: black; 
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  height: 600px; /* Set a desired height for the webpage */
 }
 
 
