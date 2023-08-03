@@ -48,16 +48,14 @@ body {
   margin-bottom: 10px;
 }
 
-/* Position and style the bio */
 .bio {
   position: absolute;
   top: 10px;
   left: 20px;
-  z-index: 2;
+  z-index: 2; /* Ensure the bio appears in front of the image */
   color: #fff;
   font-size: 16px;
-  padding: 10px;
-  border-radius: 5px;
 }
+
 
 /* ... Your previous styles ... */
