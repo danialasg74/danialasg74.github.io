@@ -17,9 +17,8 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 50%;
+  top: 20px; /* Adjust the top value for vertical positioning */
   right: 20px;
-  transform: translateY(-50%);
   z-index: 1;
 }
 
@@ -27,7 +26,7 @@
   display: block;
   font-size: 24px;
   color: #fff;
-  background-color: #4CAF50; /* Background color */
+  background-color: #3a3a3a; /* Gloomy background color */
   padding: 20px 30px; /* Padding */
   border-radius: 10px; /* Border radius */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
@@ -36,7 +35,7 @@
 }
 
 .menu-items a:hover {
-  background-color: #45a049; /* Hover background color */
+  background-color: #2c2c2c; /* Darker background color on hover */
 }
 
 /* Adjust the menu button position */
