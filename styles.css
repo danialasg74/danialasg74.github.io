@@ -36,6 +36,20 @@ body {
   margin-bottom: 10px;
 }
 
+
+.menu-items a {
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  background-color: #3a3a3a; /* Gloomy background color */
+  padding: 20px 30px; /* Padding */
+  border-radius: 10px; /* Border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
 /* Position and style the bio */
 .bio {
   position: absolute;
@@ -46,18 +60,6 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   border-radius: 5px;
-}
-
-.menu-items a {
-  display: block;
-  font-size: 24px;
-  color: #fff;
-  background-color: #3a3a3a; /* Gloomy background color */
-  padding: 20px 30px; /* Padding */
-  border-radius: 10px; /* Border radius */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Box shadow */
-  text-decoration: none;
-  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 /* ... Your previous styles ... */
