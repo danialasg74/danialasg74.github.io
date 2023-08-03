@@ -27,16 +27,6 @@ body {
   z-index: 1;
 }
 
-.menu-items a:hover {
-  background-color: #2c2c2c; /* Darker background color on hover */
-}
-
-/* Adjust the menu button position */
-.menu-button {
-  margin-bottom: 10px;
-}
-
-
 .menu-items a {
   display: block;
   font-size: 24px;
@@ -49,6 +39,14 @@ body {
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
+.menu-items a:hover {
+  background-color: #2c2c2c; /* Darker background color on hover */
+}
+
+/* Adjust the menu button position */
+.menu-button {
+  margin-bottom: 10px;
+}
 
 /* Position and style the bio */
 .bio {
