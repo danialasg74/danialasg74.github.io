@@ -3,7 +3,7 @@
 body {
   max-width: 800px; /* Set a desired maximum width for the webpage */
   margin: 0 auto; /* Center the content horizontally */
-  background-color: #000;
+  background-color: black; 
 }
 
 
