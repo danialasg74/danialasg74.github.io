@@ -55,7 +55,7 @@ body {
   background-color: #3a3a3a; /* Gloomy background color */
   padding: 20px 30px; /* Padding */
   border-radius: 10px; /* Border radius */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Box shadow */
   text-decoration: none;
   transition: background-color 0.3s ease; /* Smooth transition */
 }
