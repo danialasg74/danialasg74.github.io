@@ -1,4 +1,10 @@
-/* ... Your previous styles ... */
+
+
+body {
+  max-width: 800px; /* Set a desired maximum width for the webpage */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
 
 /* Style the header container */
 .header {
