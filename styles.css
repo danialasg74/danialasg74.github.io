@@ -1,32 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Your Page Title</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-  <div class="header">
-    <div class="bio">
-      <p>I like science, poetry, music, and philosophy.</p>
-      <p>On this page, I share my writings.</p>
-    </div>
-    <div class="menu-items" id="menuItems">
-      <a href="https://allpoetry.com/Danial6" class="menu-button">Poems</a>
-      <a href="https://www.youtube.com/@danialasgari882/videos" class="menu-button">Songs</a>
-      <a href="https://scholar.google.com/citations?user=I-dKd9gAAAAJ&hl=en" class="menu-button">Papers</a>
-    </div>
-    <img src="image/IMG_1175.png" alt="Rectangle Picture">
-    <div class="quote">
-      <p>"It is bad today, and it will be worse tomorrow—and so on till the worst of all" ― Arthur Schopenhauer</p>
-    </div>
-  </div>
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  height: 200px; /* Set a desired height for the webpage */
+}
 
-  <script>
-    function toggleMenu() {
-      var menu = document.getElementById("menuItems");
-      menu.classList.toggle("show");
-    }
-  </script>
-</body>
-</html>
+/* Style the header container */
+.header {
+  position: relative;
+}
+
+/* Style the rectangle picture */
+.header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Adjust the navbar/menu positioning */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  z-index: 1;
+}
+
+.menu-items a {
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  background-color: #3a3a3a; /* Gloomy background color */
+  padding: 20px 30px; /* Padding */
+  border-radius: 10px; /* Border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Box shadow */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.menu-items a:hover {
+  background-color: #2c2c2c; /* Darker background color on hover */
+}
+
+/* Adjust the menu button position */
+.menu-button {
+  margin-bottom: 10px;
+}
+
+.bio {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 2; /* Ensure the bio appears in front of the image */
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/* Style the quote container */
+.quote {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 2;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/* ... Your previous styles ... */
+
+
