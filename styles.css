@@ -2,6 +2,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   background-color: black;
+  height: 200px; 
 }
 
 .header {
