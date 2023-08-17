@@ -2,12 +2,12 @@ body {
   max-width: 800px;
   margin: 0 auto;
   background-color: black;
-  height: 50px; /* Set a desired height for the webpage */
+
 }
 
-/* Style the header container */
 .header {
   position: relative;
+  height: 200px; /* Set the desired height for the header */
 }
 
 /* Style the rectangle picture */
