@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I received my PhD from [institution], where I worked on [topic] with [advisor]."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I received my PhD from [institution], where I worked on [topic] with [advisor]."
+  },
+  {
+    "objectID": "about.html#research-approach",
+    "href": "about.html#research-approach",
+    "title": "About",
+    "section": "Research approach",
+    "text": "Research approach\nMy work combines: - Population genetic theory - Large-scale genomic data - Statistical inference and simulation\nI’m especially interested in [1–2 deeper questions]."
+  },
+  {
+    "objectID": "about.html#tools-methods",
+    "href": "about.html#tools-methods",
+    "title": "About",
+    "section": "Tools & methods",
+    "text": "Tools & methods\nPython · R · Julia\nGenomics · SFS / DFE inference · Simulation\nGitHub: https://github.com/yourusername"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Your Name | Research",
+    "section": "",
+    "text": "I’m a biologist interested in [your core question], using [methods: genomics, modeling, experiments, etc.] to understand [system or phenomenon].\nI’m currently [position] in the [department] at [institution]."
+  },
+  {
+    "objectID": "index.html#hi-im-your-name",
+    "href": "index.html#hi-im-your-name",
+    "title": "Your Name | Research",
+    "section": "",
+    "text": "I’m a biologist interested in [your core question], using [methods: genomics, modeling, experiments, etc.] to understand [system or phenomenon].\nI’m currently [position] in the [department] at [institution]."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Your Name | Research",
+    "section": "Research interests",
+    "text": "Research interests\n\nEvolutionary and population genomics\nDistribution of fitness effects and selection\nComputational and statistical biology\n[Your system: Drosophila, microbes, humans, etc.]"
+  },
+  {
+    "objectID": "index.html#recent-selected-work",
+    "href": "index.html#recent-selected-work",
+    "title": "Your Name | Research",
+    "section": "Recent / selected work",
+    "text": "Recent / selected work\n\nPaper title (Year) Journal\n\nPreprint title (Year) bioRxiv\n\nTalk — Conference (Year)"
+  },
+  {
+    "objectID": "index.html#prospective-students-collaborators",
+    "href": "index.html#prospective-students-collaborators",
+    "title": "Your Name | Research",
+    "section": "Prospective students & collaborators",
+    "text": "Prospective students & collaborators\nIf you’re interested in working together, feel free to reach out."
+  }
+]
