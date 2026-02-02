@@ -1,0 +1,23 @@
+---
+title: "About"
+---
+
+## Background
+I received my PhD from **[institution]**, where I worked on **[topic]** with **[advisor]**.
+
+---
+
+## Research approach
+My work combines:
+- Population genetic theory
+- Large-scale genomic data
+- Statistical inference and simulation
+
+I’m especially interested in **[1–2 deeper questions]**.
+
+---
+
+## Tools & methods
+Python · R · Julia  
+Genomics · SFS / DFE inference · Simulation  
+GitHub: https://github.com/yourusername

@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Your Name | Research"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+  page-footer:
+    center: "© 2026 Your Name · Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

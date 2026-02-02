@@ -1,0 +1,29 @@
+---
+title: ""
+---
+
+## Hi — I’m Your Name
+
+I’m a biologist interested in **[your core question]**, using **[methods: genomics, modeling, experiments, etc.]** to understand **[system or phenomenon]**.
+
+I’m currently **[position]** in the **[department]** at **[institution]**.
+
+---
+
+## Research interests
+- Evolutionary and population genomics
+- Distribution of fitness effects and selection
+- Computational and statistical biology
+- [Your system: Drosophila, microbes, humans, etc.]
+
+---
+
+## Recent / selected work
+- **Paper title** (Year) *Journal*  
+- **Preprint title** (Year) bioRxiv  
+- **Talk** — Conference (Year)
+
+---
+
+## Prospective students & collaborators
+If you’re interested in working together, feel free to reach out.
