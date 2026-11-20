@@ -30,36 +30,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Your Name | Research",
+    "title": "Danial Asgari",
     "section": "",
-    "text": "I’m a biologist interested in [your core question], using [methods: genomics, modeling, experiments, etc.] to understand [system or phenomenon].\nI’m currently [position] in the [department] at [institution]."
+    "text": "I am a postdoctoral researcher at Vanderbilt University studying the evolution of the insect immune system. My research spans several areas of insect immunity: the evolution of antimicrobial peptides (AMPs) across Diptera and Coleoptera; the evolution of signaling pathways that regulate AMP expression using mathematical models; and the evolutionary constraints on immune genes that are pleiotropic with development."
   },
   {
-    "objectID": "index.html#hi-im-your-name",
-    "href": "index.html#hi-im-your-name",
-    "title": "Your Name | Research",
-    "section": "",
-    "text": "I’m a biologist interested in [your core question], using [methods: genomics, modeling, experiments, etc.] to understand [system or phenomenon].\nI’m currently [position] in the [department] at [institution]."
+    "objectID": "index.html#evolution-of-antimicrobial-peptides",
+    "href": "index.html#evolution-of-antimicrobial-peptides",
+    "title": "Danial Asgari",
+    "section": "1. Evolution of Antimicrobial Peptides",
+    "text": "1. Evolution of Antimicrobial Peptides\nAntimicrobial peptides (AMPs) exist in all multicellular organisms and are used as a defense against pathogens. In insects, discrete developmental stages demand adaptation of AMPs across ontogeny. My research has demonstrated this in both stable flies and house flies, revealing developmental stage-specific patterns of AMP expression, as well as distinct patterns of phylogenetic clustering and genomic organization (Asgari, Nayduch, et al. 2024; Asgari, Purvis, et al. 2024). I’m currently studying AMPs and proteins involved in immune signaling in Coleoptera, focusing on Tribolium species.\n\n\n\nFig. 1. Defensins (a class of antimicrobial peptides) in the house fly exhibit stage specificity. Distinct antimicrobial peptides are expressed during larval/pupal stages or specifically in adults. Larval/pupal antimicrobial peptides cluster together both phylogenetically and by genomic location. Here, Def is the outgroup from D. melanogaster used to root the tree."
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Your Name | Research",
-    "section": "Research interests",
-    "text": "Research interests\n\nEvolutionary and population genomics\nDistribution of fitness effects and selection\nComputational and statistical biology\n[Your system: Drosophila, microbes, humans, etc.]"
+    "objectID": "index.html#evolution-of-negative-feedback-loops-within-immune-signaling-pathways",
+    "href": "index.html#evolution-of-negative-feedback-loops-within-immune-signaling-pathways",
+    "title": "Danial Asgari",
+    "section": "2. Evolution of Negative Feedback Loops within Immune Signaling Pathways",
+    "text": "2. Evolution of Negative Feedback Loops within Immune Signaling Pathways\nSignaling pathways are regulated by negative feedback loops (NFLs) that function upstream to reduce input to the system or downstream to reduce the output. Why is there multilayer regulation of signaling pathways? In immune signaling, NFLs reduce energetic costs and prevent autoimmunity. I use mathematical models to understand how NFLs evolve and whether they are redundant or provide unique benefits. I have shown that increasing the strength of upstream NFLs, assuming they help reduce immune costs, allows an induced response to outperform a constitutive defense (not regulated by NFLs) across a broader range of environments (left) (Asgari, Stewart, et al. 2024). My research also shows that downstream NFLs evolve more robustly to variations in pathogen and signaling pathway properties than upstream regulators downstream NFLs (right) (Asgari and Tate 2025).\n\n\n\nFig. 2. On the left, an induced response with upstream and downstream NFLs is compared with a constant (i.e., constitutive) response. Increasing NFL is associated with a trade-off, as it reduces the cost of the induced defense but allows the pathogen to grow. The benefit of increasing NFL outweighs its cost for slow-dividing pathogens more than for fast-dividing pathogens. On the top right, the rate of evolution of genes encoding NFLs is shown across various species and signaling pathways. On the bottom right, an evolutionary model predicts the evolution of the downstream NFL across a broader range of parameter values, consistent with its crucial function and conservation."
   },
   {
-    "objectID": "index.html#recent-selected-work",
-    "href": "index.html#recent-selected-work",
-    "title": "Your Name | Research",
-    "section": "Recent / selected work",
-    "text": "Recent / selected work\n\nPaper title (Year) Journal\n\nPreprint title (Year) bioRxiv\n\nTalk — Conference (Year)"
-  },
-  {
-    "objectID": "index.html#prospective-students-collaborators",
-    "href": "index.html#prospective-students-collaborators",
-    "title": "Your Name | Research",
-    "section": "Prospective students & collaborators",
-    "text": "Prospective students & collaborators\nIf you’re interested in working together, feel free to reach out."
+    "objectID": "index.html#evolution-of-pleiotropic-immune-genes",
+    "href": "index.html#evolution-of-pleiotropic-immune-genes",
+    "title": "Danial Asgari",
+    "section": "3. Evolution of Pleiotropic Immune Genes",
+    "text": "3. Evolution of Pleiotropic Immune Genes\nPleiotropic genes perform multiple functions and are therefore expected to experience stronger evolutionary constraints. This is because mutations that improve one function may be deleterious to another. I am currently studying pleiotropic genes within immune signaling pathways across Drosophila species, with a particular focus on differences in evolutionary rates between domain and non-domain regions (Asgari and Tate 2026). My current research shows strong purifying selection on domain regions of pleiotropic genes.\n\n\n\nFig. 3. Pleiotropic genes evolve under stronger evolutionary constraints, particularly within functional domains that carry out fundamental functions."
   }
 ]
