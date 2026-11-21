@@ -1,0 +1,23 @@
+project:
+  type: website
+  resources:
+    - profile.jpg
+    - CV.pdf
+
+website:
+  title: "Danial Asgari"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: "https://scholar.google.com/citations?user=I-dKd9gAAAAJ&hl=en"
+        text: Publications
+      - href: CV.pdf
+        text: CV
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
